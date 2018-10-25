@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/details.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/iconfont.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/iconfont.js"></script>
+    <title>嗨！租车</title>
+</head>
+<body>
+  <!--头部-->
+  <header id="header"></header>
+  <!--右侧固定导航栏-->
+  <div class="aside_nav">
+      <a href="">
+          <span class="iconfont">&#xe600;</span>
+          <span>租车卷</span>
+      </a>
+      <a href="">
+          <span class="iconfont">&#xe63c;</span>
+          <span>订单</span>
+      </a>
+      <a href="">
+          <span class="iconfont">&#xe88f;</span>
+          <span>客服</span>
+      </a>
+      <a href="">
+          <span class="iconfont">&#xe661;</span>
+          <span>建议</span>
+      </a>
+      <a href="#">
+          <span class="iconfont">&#xe67a;</span>
+          <span>回顶部</span>
+      </a>
+  </div>
+  <!--1层大背景-->
+  <div class="my_bg">
+      <!--左边租车框-->
+      <div class="d_z">
+          <!--1层导航-->
+          <div id="tabs">
+              <a href="#" data-toggle="tabs" data-target="#content1">上门取送</a>
+              <a href="#" data-toggle="tabs" data-target="#content2">到店取还</a>
+              <a href="#" data-toggle="tabs" data-target="#content3">特价套餐</a>
+          </div>
+          <!--2层具体-->
+          <div id="contents">
+              <!--上门送取-->
+              <div id="content1">
+                  <span>取车</span>
+                  <div class="my_ct_1">
+                      <input type="text" placeholder="请输入取车地址"/>
+                      <span>送车上门 <input type="checkbox"/></span>
+                  </div >
+                  <span>还车</span>
+                  <div class="my_ct_1">
+                      <input type="text" placeholder="请输入还车地址"/>
+                      <span>上门取车 <input type="checkbox"/></span>
+                  </div>
+                  <span>租期</span>
+                  <div class="my_ct_2">
+                      <input type="text" placeholder="2018.10.14"/>
+                      <input type="text" placeholder="10:00"/>
+                  </div>
+                  <img class="my_ct_2" src="./img/details/bg-z-zhi.PNG" alt=""/>
+                  <div class="my_ct_2">
+                      <input type="text" placeholder="2018.10.14"/>
+                      <input type="text" placeholder="10:00"/>
+                  </div>
+                  <a href="#">立即选车</a>
+              </div>
+              <!--到店取还-->
+              <div id="content2">
+                  <div>
+                      <span>取车</span>
+                      <span>送车上门 <input type="checkbox"/></span>
+                      <div>
+                          <input type="text" placeholder="西安"/>
+                          <input type="text" placeholder="请输入取车门店"/>
+                      </div>
+                      <div>
+                          <input type="date" placeholder="2018-10-23"/>
+                          <input type="time" placeholder="10:00"/>
+                      </div>
+                  </div>
+                  <div>
+                      <span>还车</span>
+                      <span>上门取车 <input type="checkbox"/></span>
+                      <div>
+                          <input type="text" placeholder="西安"/>
+                          <input type="text" placeholder="请输入还车门店"/>
+                      </div>
+                      <div>
+                          <input type="date" placeholder="2018-10-30"/>
+                          <input type="time" placeholder="10:00"/>
+                      </div>
+                  </div>
+                  <a href="#">立即选车</a>
+              </div>
+              <!--特价套餐-->
+              <div id="content3">
+                  <div>
+                      <div>
+                          <h4>工作日套餐</h4>
+                          <h5>(4天)</h5>
+                      </div>
+                      <div>超值<br>优惠</div>
+                  </div>
+                  <div>
+                      <div>
+                          <h4>周租套餐</h4>
+                          <h5>(7天)</h5>
+                      </div>
+                      <div>8折<br>优惠</div>
+                  </div>
+                  <div>
+                      <div>
+                          <h4>月租套餐</h4>
+                          <h5>(28+天)</h5>
+                      </div>
+                      <div>6折<br>优惠</div>
+                  </div>
+                  <div>
+                      <div>
+                          <h4>年租套餐</h4>
+                          <h5>(365天)</h5>
+                      </div>
+                      <div>用车<br>新体验</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--底层小圆点-->
+      <ul>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a>
+      </ul>
+  </div>
+  <!--2层导航栏-->
+  <div class="my_nav">
+      <!--热销-->
+      <div class="my_nav1 d-flex justify-content-between">
+          <a href="#">
+              <img src="./img/details/d-2-a1.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>经济型</p>
+              <img src="./img/details/d-2-a2.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>舒适型</p>
+              <img src="./img/details/d-2-a3.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>精英型</p>
+              <img src="./img/details/d-2-a4.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>SUV</p>
+              <img src="./img/details/d-2-a5.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>5-15座商务</p>
+              <img src="./img/details/d-2-a6.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>电动型</p>
+              <img src="./img/details/d-2-a7.PNG" alt=""/>
+          </a>
+          <a href="#">
+              <p>高端型</p>
+              <img src="./img/details/d-2-a8.PNG" alt=""/>
+          </a>
+      </div>
+      <!--品牌、价格...-->
+      <div class="my_nav2">
+          <span>品牌：</span>
+          <div class="my_pp">
+              <a href="#">全部</a>
+              <a href="#">玛莎拉蒂</a>
+              <a href="#">大众</a>
+              <a href="#">一汽马自达</a>
+              <a href="#">英菲尼迪</a>
+              <a href="#">标志</a>
+              <a href="#">本田</a>
+              <a href="#">雪佛兰</a>
+              <a href="#">宝马</a>
+              <a href="#">沃尔沃</a>
+              <a href="#">绅宝</a>
+              <a href="#">丰田</a>
+              <a href="#">现代</a>
+              <a href="#">起亚</a>
+              <a href="#">福特</a>
+              <a href="#">日产</a>
+              <a href="#">奥迪</a>
+              <a href="#">奔驰</a>
+              <a href="#">比亚迪</a>
+              <a href="#">北汽</a>
+              <a href="#">保时捷</a>
+          </div>
+      </div>
+      <div class="my_nav2">
+          <span>价格：</span>
+          <div class="my_pp">
+              <a href="#">全部</a>
+              <a href="#">100以下</a>
+              <a href="#">100-500元</a>
+              <a href="#">500-1000元</a>
+              <a href="#">100-2000元</a>
+              <a href="#">2000以上</a>
+          </div>
+      </div>
+      <div class="my_nav2">
+          <span>排挡：</span>
+          <div class="my_pp">
+              <a href="#">全部</a>
+              <a href="#">手动</a>
+              <a href="#">自动</a>
+              <a href="#">无级变速</a>
+              <a href="#">手自一体</a>
+              <a href="#">双离合</a>
+          </div>
+      </div>
+      <div class="my_nav2">
+          <span>座位：</span>
+          <div class="my_pp">
+              <a href="#">全部</a>
+              <a href="#">2座</a>
+              <a href="#">4座</a>
+              <a href="#">7座</a>
+          </div>
+      </div>
+  </div>
+  <!--3层详细页-->
+  <div class="my_detail">
+      <!--详情导航-->
+      <div class="my_d1">
+          <a href="#">默认排序</a>
+          <a href="#">按价格</a>
+          <a href="#">按排量</a>
+          <div>
+              *共有 <span>12</span> 款车型可租用
+          </div>
+      </div>
+      <!--车辆详情-->
+      <div class="my_d2">
+          <ul class="d-flex list-unstyled justify-content-around">
+              <li>
+                  <img class="my_img" src="./img/details/3-1.jpg" alt=""/>
+              </li>
+              <li>
+                  <p>雪佛兰科鲁兹</p>
+                  <p>三厢|1.5自动|乘坐5人</p>
+              </li>
+              <li>
+                  <span><b>￥128</b>/日均</span>
+                  <span><img src="img/details/lb-ms.png" alt=""/></span>
+              </li>
+              <li>
+                  <a href="#">租车</a>
+              </li>
+          </ul>
+          <ul class="d-flex list-unstyled justify-content-around">
+              <li>
+                  <img class="my_img" src="./img/details/3-1.jpg" alt=""/>
+              </li>
+              <li>
+                  <p>雪佛兰科鲁兹</p>
+                  <p>三厢|1.5自动|乘坐5人</p>
+              </li>
+              <li>
+                  <span><b>￥128</b>/日均</span>
+              </li>
+              <li>
+                  <a href="#">租车</a>
+              </li>
+          </ul>
+          <ul class="d-flex list-unstyled justify-content-around">
+              <li>
+                  <img class="my_img" src="./img/details/3-1.jpg" alt=""/>
+              </li>
+              <li>
+                  <p>雪佛兰科鲁兹</p>
+                  <p>三厢|1.5自动|乘坐5人</p>
+              </li>
+              <li>
+                  <span><b>￥128</b>/日均</span>
+              </li>
+              <li>
+                  <a href="#">租车</a>
+              </li>
+          </ul>
+          <ul class="d-flex list-unstyled justify-content-around">
+              <li>
+                  <img class="my_img" src="./img/details/3-1.jpg" alt=""/>
+              </li>
+              <li>
+                  <p>雪佛兰科鲁兹</p>
+                  <p>三厢|1.5自动|乘坐5人</p>
+              </li>
+              <li>
+                  <span><b>￥128</b>/日均</span>
+              </li>
+              <li>
+                  <a href="#">租车</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+  <!--脚部-->
+  <footer id="footer"></footer>
+  <!---->
+  <script src="js/details.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+</body>
+</html>

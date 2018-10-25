@@ -1,0 +1,100 @@
+#footer .both{
+    width: 100%;
+    background: rgb(242,242,242);
+}
+#footer .container_footer{
+    margin: auto;
+    width: 1200px;
+    background: rgb(242,242,242);
+    padding: 0;
+}
+#footer .top{
+    width: 1200px;
+    height: 140px;
+    padding: 30px 10px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+#footer .top1{
+    background-image: url(../img/footer/footer_bg.png);
+    width:1180px;
+    height:80px;;
+    background-repeat: no-repeat;
+    position:relative;
+    
+}
+#footer .ul1{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+}
+#footer .ul1>li{
+    font-size:18px;
+    float: left;
+    width: 236px;
+    text-align: center;
+}
+
+#footer .buttom{
+    width: 1200px;
+    height:220px;
+    padding: 35px 58px 30px 58px;
+    box-sizing: border-box;
+}
+#footer .buttom>ul{
+    list-style: none;
+    float: left;
+    padding: 0 20px 0 0;
+    margin: 0;
+}
+#footer .buttom>ul>li{
+    padding: 2px 0 0 2px;
+    width: 138px;
+    height: 29px;
+}
+#footer .buttom>ul>li:first-child{
+    font-size: 20px;
+    color: #707070;
+    padding-bottom: 5px;
+}
+#footer a{
+    font-size: 14px;
+    color: #707070;
+    padding: 5px 0;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: #707070;
+}
+#footer .buttom>ul>li>img{
+    width:100px;
+    height: 100px;
+}
+#footer .scan1{
+    width: 110px;
+    text-align: center;
+    padding-right:0;
+    margin-right:50px;  
+}
+#footer .scan2{
+    width: 110px;
+    text-align: center;
+    padding-right:0;
+}
+#footer .footerin{
+    margin: auto;
+    width: 200px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+#alertin{
+    display: block;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;;
+}

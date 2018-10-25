@@ -1,0 +1,238 @@
+div.t_video{
+    width:100%;
+    position:relative;
+    border: 1px solid transparent;
+    height: 1000px;
+}
+.t_video_f{
+    position:fixed;
+    z-index: -1;
+}
+.t_video_f>video{
+    width:100%;
+    height:100%;
+}
+div.t_video>.top_nav{
+    width: 100%;
+    height:65px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+div.t_video .nav_left{
+    float:left;
+    width:150px;
+    height:65px;
+}
+.nav_left>a{
+    display: block;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.nav_right>a:hover{
+    text-decoration: none;
+}
+.nav_left>a>img{
+    width:150px;
+}
+div.t_video .nav_right{
+    float:right;
+    height:65px;
+    padding-top: 38px;
+    padding-right: 50px;
+}
+.nav_right>a{
+    font-size: 15px;
+    color:#fff;
+    padding: 20px;
+}
+div.t_video_f .v_center{
+    position: absolute;
+    top: 10%;
+    left:32%;
+    width:700px;
+    height:700px;
+    border-radius:50%;
+    background:black;
+    opacity: 0.4;
+    padding:12% 6%;
+}
+div.t_video_f>.v_foot{
+    position: absolute;
+    bottom:120px;
+    width: 100%;
+}
+div.t_video_f .foot_right{
+    float: right;
+    padding-right: 40px;
+}
+div.t_video_f .foot_left{
+    float:left;
+    padding-left: 50px;
+}
+div.t_video_f .foot_left>img{
+    width:220px;
+}
+.d2{
+    width: 100%;
+    height: 1100px;
+    background-color:white;
+}
+.d2>.d2-1,.d4>.d4-1{
+    padding-top: 100px;
+    font-size: 24px;
+    color: #584f60;
+    font-weight: bold;
+    text-align: center;
+}
+.d2>.d2-2{
+    font-size: 16px;
+    color:#666;
+    margin-top:32px;
+    text-align: center;
+}
+.d2>.d2-3{
+    position: relative;
+}
+.d2 .dimg{
+    position: absolute;
+    top: 70px;
+    left: 11%;
+}
+.d2 .dimg>img{
+    width: 1500px;
+    opacity: .6;
+    transition: all 0.5s linear;
+}
+.d2 .dimg>img:hover{
+    width: 1550px;
+    opacity: 1;
+}
+.d2 .simg{
+    position: absolute;
+    top: 40px;
+    left: 15%;
+}
+.d2 .simg>.sm-1{
+    position: relative;
+}
+.d2 .simg>.sm-1>div{
+    position: absolute;
+    width: 350px;
+    height:260px;
+}
+.d2 .simg>.sm-1:nth-child(2){
+    top: 290px;
+}
+.d2 .simg>.sm-1:nth-child(3){
+    top: 580px;
+}
+.d2 .sm-1>div:last-child>div:first-child{
+    width: 103%;
+    height:90px;
+    padding: 10px 0 0 15px;
+    background-color: white;
+    opacity: 0.9;
+}
+.d2 .sm-1>div:last-child>div:last-child{
+    margin-top: 120px;
+    width: 103%;
+    height:60px;
+    padding: 5px 70px 0 15px;
+    background-color: white;
+    opacity: 0.9;
+}
+.d2 .sm-1>div:last-child>div:first-child>p{
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #393a3a;
+}
+.d2 .sm-1>div:last-child{
+    opacity:0;
+    transition: all 1s linear;
+}
+.d2 .sm-1:hover div:last-child{
+    opacity:1;
+}
+.d2 .sm-1>div:first-child>img{
+    width: 350px;
+    height: 260px;
+    transition: all .5s linear;
+}
+.d2 .sm-1:hover div:first-child>img{
+    width: 360px;
+    height: 270px;
+    box-shadow:0 0 20px 10px #63605c;
+}
+.d3 .dimg>img{
+     width:1500px;
+     height:765px;
+ }
+.d3 .dimg>img:hover{
+    width:1540px;
+    height:790px;
+}
+.d3 .simg>.nsimg>img{
+    display: block;
+    width: 350px;
+    height:260px;
+    margin:25px 20px;
+    transition: all .5s linear;
+}
+.d3 .simg>.nsimg>img:hover{
+    width: 365px;
+    height:275px;
+    box-shadow:0 0 20px 5px #2AFFF7 ;
+}
+.d3 .simg>.nsimg{
+    width: 400px;
+    height: 850px;
+    overflow-y: hidden;
+}
+.d4{
+    width: 100%;
+    background-color: white;
+    height: 700px;
+}
+.d4>.d4-2{
+    padding:100px 50px 100px 0;
+}
+.d4>.d4-2>div{
+    width: 500px;
+    height: 350px; ;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+}
+.d4>.d4-2>div>div{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+}
+.d4>.d4-2>div>div:first-child>img{
+    width: 500px;
+    height: 350px;
+}
+.d4>.d4-2>div:hover{
+    transition: all .5s linear;
+    box-shadow: 0 0 15px 5px rgba(13, 195, 96, 0.36);
+}
+.d4>.d4-2>div>div:last-child{
+    background-color: #000d1d;
+    opacity: 0.6;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 350px;
+    color: white;
+}
+.d4>.d4-2>div>div:last-child:hover{
+    opacity: 0;
+}
+
+.d4>.d4-2>div:last-child{
+    right:10px;
+}
